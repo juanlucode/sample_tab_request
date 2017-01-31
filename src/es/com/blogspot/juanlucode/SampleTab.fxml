@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import es.com.blogspot.juanlucode.TabRequest?>
+
+
+<AnchorPane prefHeight="468.0" prefWidth="519.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="14.0" layoutY="14.0" prefHeight="443.0" prefWidth="495.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Untitled Tab 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+          <TabRequest text="customized" subjectLabel="ASUNTO" bodyLabel="TEXTO" />
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
