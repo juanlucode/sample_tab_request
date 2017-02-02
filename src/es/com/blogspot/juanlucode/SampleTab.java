@@ -41,6 +41,7 @@ public class SampleTab extends Application {
 		Scene scene = new Scene(root);
 		stage.setTitle("Sample TabRequest");
 		stage.setScene(scene);
+		
 		stage.show();
 	}
 	
